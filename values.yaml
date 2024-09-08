@@ -2,6 +2,10 @@ persistence:
   enabled: true
   sortageClassName: ssd
   size: 5Gi
+
+service:
+  type: ClusterIP
+  externalTrafficPolicy: ""
 # authentication:
 #   passwordFilePath: /etc/mosquitto/passwordfile
 
